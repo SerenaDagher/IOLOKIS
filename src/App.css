@@ -1,0 +1,19 @@
+html, body {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  overflow-x: clip;
+  margin: 0; 
+  padding: 0;
+  background-color: #000000;
+  overscroll-behavior: none;
+}
+
+:root {
+  --main-color: #32B2A2;
+}
+
+button:focus,
+button:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
